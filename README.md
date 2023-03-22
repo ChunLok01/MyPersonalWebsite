@@ -4,4 +4,5 @@ The website is about my story and experience as a member of Pembimbing Rakan Seb
  
 Techniques/Languages: HTML, CSS, JavaScript
 
+* Homepage
 Open index.html for the homepage.
