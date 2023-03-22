@@ -1,0 +1,144 @@
+#head{
+    background-image: url(../image/about.jpg);
+}
+#content{
+    width: 80%;
+    margin: auto;
+}
+#self-flex{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+#selfie{
+    width: 30%;
+}
+#selfie img{
+    width: 100%;
+}
+#self-text{
+    width: 40%;
+}
+.flex{
+    display: none;
+}
+#detail{
+    margin-top: 100px;
+    display: flex; 
+    justify-content: space-around;        
+}
+.wrapper{
+    margin: 10px;
+}
+.section{
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 170px;
+    text-align: center;
+    background-color: oldlace;
+}
+.section:hover{
+    background-color: #e9bc6a;
+}
+.section a:hover{
+    color: #ff3300;
+    text-shadow: 1px 1px white;
+}
+.section p,a{
+    text-decoration: none;
+    color: #ff5e00;
+}
+.lb-data .lb-caption {
+    font-size: 30px;
+}
+.lb-caption, .lb-number{
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+    text-shadow: 1px 1px black;
+}
+.image-none{
+    display: none;
+}
+#firstsecond-flex{
+    display: flex;
+    justify-content: space-between;
+}
+#first{
+    width: 45%;
+}
+#image{
+    width: 5%;
+    margin-top: 70px;
+    height: 60px;
+}
+#second{
+    width: 45%;
+}
+.title{
+    margin-top: 100px;
+    padding: 10px;
+}
+.text{
+    padding: 10px;
+    font-size: 17px;
+    line-height: 40px;
+}
+.slider {
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+@media screen and (max-width: 768px) {
+    #self-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #selfie{
+        width: 70%;
+    }
+    #self-text{
+        width: 100%;
+    }
+    #detail{
+        display: none;
+    }
+    #detail-handheld{
+        margin-top: 100px;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-around;
+    }
+    .section{
+        width: 200px;
+    }
+    #image{
+        display: none;
+    }
+    #firstsecond-flex{
+        flex-direction: column;
+    }
+    #first{
+        width: 100%;
+    }
+    #second{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .lb-caption, .lb-number{
+        bottom: 90px;
+
+    }
+}

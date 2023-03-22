@@ -1,0 +1,147 @@
+#content{
+    background-image: url(../image/sharebg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    border-radius: 4px;
+    background: transparent;
+    color: #c5ecfd;
+}
+option{
+    background: #000000cc;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #39b7dd;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #42cffa;
+}
+label{
+    color: #a4bfca;
+}
+#main-form{
+    margin-top: 100px;
+}
+#form {
+    max-width: 650px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #000000cc;
+    padding: 20px;    
+    margin-bottom: 20px;   
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+#info{
+    background-color: #000000b0;
+    width: 40%;
+    border-radius: 5px;
+    height: 400px;
+    position: relative;
+    right: 70px;
+    padding: 10px;
+}
+#contact{
+    color: #ffffff;
+}
+#contact h2{
+    text-align: center;
+}
+.info-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+.info-flex img{
+    margin-top: 25px;
+}
+.info-flex p{
+    color: #ffffff;
+    font-size: 13px;
+}
+.info-phone{
+    font-size: 50px;
+    color: #ffffff;
+}
+.info-email{
+    font-size: 30px;
+    margin-right: 5px;
+    color: #ffffff;
+    margin-top: 7px;
+}
+#title{
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    margin: 10px;
+}
+#input{
+    width: 60%;
+    margin: 10px;
+}
+#input2{
+    width: 60%;
+    margin: 10px;
+}
+#text{
+    padding: 12px 20px;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    border-radius: 4px;
+    background: transparent;
+    color: #c5ecfd;
+    width: 100%;
+}
+#map iframe{
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    #info{
+        background: transparent;
+        width: 100%;
+        position: static;
+        padding: 10px;
+        height: 100%;
+
+    }
+    #contact h2{
+        text-align: left;
+    }
+    .info-flex p{
+        color: #ffffff;
+        font-size: 15px;
+    }
+    #form {
+        max-width: 500px;           
+    }
+    .flex{
+        flex-direction: column;
+    }
+    #input{
+        width: 95%;
+    }
+    #input2{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 500px) {
+    #form {
+        max-width: 400px;           
+    }
+}

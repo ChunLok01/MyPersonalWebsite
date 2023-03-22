@@ -1,0 +1,102 @@
+.post-button{
+    border: 1px solid #ff8000;
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    position: relative; 
+    bottom: 60px;              
+}
+.button a,.post-button a{
+    text-decoration: none;
+    color: white;
+}
+.button:hover,.post-button:hover{
+    background-color: #ffeb99;
+}
+.button:hover a,.post-button:hover a{
+    color: #262626;
+    text-shadow: none;
+}
+.post-button-handheld{
+    border: 1px solid #ff8000;
+    text-align: center;
+    padding: 10px;
+    margin-right: 40px;
+    width: 200px;
+    display: none;
+}
+.post-button-handheld a{
+    text-decoration: none;
+    color: #000000;
+}
+.post-button-handheld:hover{
+    background-color:#000000;
+    border: 1px solid #000000
+}
+.post-button-handheld:hover a{
+    color: #ff8000;
+    text-shadow: none;
+}
+#content{
+    width: 80%;
+    margin: auto;
+}
+#content-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.post{
+    width: 45%;
+    margin-top: 100px;
+}
+.post-image-hover{
+    display: none;
+}
+.image:hover .post-image-hover{
+    display: block;
+}
+.image:hover .post-image{
+    display: none;
+}
+.post-image img{
+    width: 100%;
+}
+.post-image-hover img{
+    width: 100%;
+    filter: brightness(40%);
+}
+.text{
+    padding: 10px;
+}
+#footer{
+    margin-top: 100px;
+}
+@media screen and (max-width: 768px) {
+    #content{
+        width: 90%;
+    }
+    .image:hover .post-image-hover{
+        display: none;
+    }
+    .image:hover .post-image{
+        display: block;
+    }
+    .post-button-handheld{
+        display: block;
+        width: 130px;
+    }
+    .post{
+        width: 40%;
+        margin: 10px;
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #content-flex{
+        flex-direction: column;
+    }
+    .post{
+        width: auto;
+    }
+}

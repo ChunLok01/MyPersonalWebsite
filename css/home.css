@@ -1,0 +1,134 @@
+#content{
+    width: 80%;
+    margin: auto;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+    margin-top: 100px;
+}
+.image{
+    width: 30%;
+}
+.image img{
+    width: 100%;
+}
+.text{
+    width: 60%;
+}
+.content-button{
+    border: 1px solid #ff8000;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+}
+.content-button a{
+    text-decoration: none;
+    color: #000000;
+}
+.content-button:hover{
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+.content-button:hover a{
+    color: #ff8000;
+    text-shadow: none;
+}
+#main-content2{
+    display: flex;
+    margin: 45px;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+#image2{
+    width: 30%;
+}
+#image2 img{
+    width: 100%;
+}
+#text2{
+    width: 60%;
+}
+.content-desktop{
+    display: none;
+}
+#sharing{
+    background-image: url(../image/sharing2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100%;
+    height: 400px;
+    filter:grayscale(50%);
+    margin-top: 100px;
+}
+#share-text{
+    position: relative;
+    top: 110px;
+    text-align: center;
+}
+#share-text h2{
+    color: #ffffff;
+    text-shadow: 1px 1px black;
+}
+.share-button{
+    border: 1px solid #ff8000;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    height: 5%;
+    margin: auto;
+}
+.share-button a{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 1px black;
+}
+.share-button:hover{
+    background-color: #ff8000;
+    border: 1px solid #ff8000;
+}
+.share-button:hover a{
+    color: #ffffff;
+    text-shadow: none;
+    text-shadow: 1px 1px black;
+}
+@media screen and (max-width: 768px) {
+    #content{
+        width: 90%;
+    }
+    .content-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-content{
+        display: block;
+        width: 40%;
+        margin: 10px;
+        margin-top: 80px;
+    }
+    #main-content2{
+        display: none;
+    }
+    .content-button{
+        width: 150px;
+    }
+    .image{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .content-flex{
+        flex-direction: column;
+    }
+    .main-content{
+        width: auto;
+    }
+    #sharing{
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,89 @@
+#content{
+    width: 80%;
+    margin: auto;
+}
+#firstsecond-flex{
+    display: flex;
+    justify-content: space-between;
+}
+#first{
+    width: 45%;
+}
+#image{
+    width: 5%;
+    margin-top: 70px;
+}
+#second{
+    width: 45%;
+}
+.title{
+    margin-top: 100px;
+    padding: 10px;
+}
+.text{
+    padding: 10px;
+    font-size: 17px;
+    line-height: 40px;
+}
+#prs-content{
+    background-image: url(../image/GroupPhoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+#content-position{
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+#icon-color{
+    color: blue;
+}
+#prs-text{
+    color: #ffffff;
+    text-shadow:1px 1px black;
+}
+.share-button{
+    border: 1px solid #ff8000;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    height: 5%;
+    margin: auto;
+}
+.share-button a{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 1px black;
+}
+.share-button:hover{
+    background-color: #ff8000;
+    border: 1px solid #ff8000;
+}
+.share-button:hover a{
+    color: #ffffff;
+    text-shadow: none;
+    text-shadow: 1px 1px black;
+}
+@media screen and (max-width: 768px) {
+    #image{
+        display: none;
+    }
+    #firstsecond-flex{
+        flex-direction: column;
+    }
+    #first{
+        width: 100%;
+    }
+    #second{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    #footer-title{
+        font-size: 27px;
+    }
+}

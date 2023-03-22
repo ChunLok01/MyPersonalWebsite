@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Officially Joined</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+        <link rel="stylesheet" href="css/blogStory.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="head">
+                <div id="topnav">
+                    <div id="logo">
+                        <a href="index.html"><img src="image/logo.png" alt="logo" height="50"></a>
+                    </div>
+                    <div id="menu" class="top-menu">
+                        <div class="menu-button"><a href="PRS.html">PRS</a></div>
+                        <div class="menu-button hassub"><a href="My Blog.html">My Blog</a>
+                            <div class="submenu">
+                                <div class="menu-button sub-button"><a href="Officialy Joined.html">Officially Joined</a></div>
+                                <div class="menu-button sub-button"><a href="Cross school camp.html">Cross school camp</a></div>
+                                <div class="menu-button sub-button"><a href="Memorable camp.html">Memorable camp</a></div>
+                            </div>
+                        </div>
+                        <div class="menu-button"><a href="About.html">About Me</a></div>
+                        <div class="menu-button"><a href="Share with Me.html">Share With Me</a></div>
+                    </div>
+                    <div id="hamburger">
+                        <a onclick="myFunction()">
+                          <i id="icon" class="fa fa-bars icon-property"></i>
+                        </a>
+                    </div>
+                </div>
+                <div id="desc">
+                    <h1>My blog.</h1>
+                    <h1>When I officially become a part of PRS.</h1>
+                </div>
+            </div>
+            <div id="content">
+                <div class="text">
+                    <p>
+                        I was applied to join PRS when I was form 2 in secondary school. Soon, I passed the interview 
+                        and started an 8-month training course. During the training, the teacher taught us a lot about 
+                        counseling and communication skills. I had learned about the mission and vision of PRS
+                        throughout the course. The 8-month training actually passed quickly. I also met many friends
+                        during the training, and I had a good relationship with the teacher. After the training, the 
+                        seniors had given a test to us. Fortunately, I passed the test and will soon put on a purple 
+                        school uniform when I was form 3 in the next year to become a part of the PRS.
+                    </p>
+                </div>
+                <div class="image-flex">
+                    <div class="image">
+                        <img src="image/friendtie.jpg" alt="PRS">
+                    </div>
+                    <div class="image">
+                        <img src="image/tie.jpg" alt="PRS">
+                    </div>
+                </div>
+                <div class="image-flex-mobile"> 
+                    <a class="full-image" href="image/friendtie.jpg" data-lightbox="set1">
+                      <img class="image" src="image/friendtie.jpg" alt=""/>
+                    </a>
+                    <a class="full-image" href="image/tie.jpg" data-lightbox="set1">
+                        <img class="image" src="image/tie.jpg" alt=""/>
+                    </a>
+                </div>
+                <div class="text">
+                    <p>
+                        One day in December of the same year, the seniors held a tie handover ceremony for us. A 
+                        purple school uniform with a tie specially made by the school for us is a symbol of our PRS. 
+                        On that day, my partners and I changed into the school uniforms we had bought before and 
+                        came to the auditorium of the school. We are all very excited, because this is the first time 
+                        we have put on the purple school uniform that we have long admired, and we are ready to 
+                        take our own tie from the teacher. After the teacher's speech, the seniors began to take turns 
+                        calling our name to take the tie. In the process of waiting, we all made fun of each other 
+                        because we had never seen each other wearing purple school uniforms. Soon after, the 
+                        senior called my name. I walked on stage with tension and excitement. In fact, I think it is 
+                        more embarrassing, because everyone is watching me with a teasing look under the stage.
+                    </p>
+                </div>
+                <div class="image-flex">
+                    <div class="image">
+                        <img src="image/teach.jpg" alt="PRS">
+                    </div>
+                    <div class="image">
+                        <img src="image/learn.jpg" alt="PRS">
+                    </div>
+                </div>
+                <div class="image-flex-mobile"> 
+                    <a class="full-image" href="image/teach.jpg" data-lightbox="set2">
+                      <img class="image" src="image/teach.jpg" alt=""/>
+                    </a>
+                    <a class="full-image" href="image/learn.jpg" data-lightbox="set2">
+                        <img class="image" src="image/learn.jpg" alt=""/>
+                    </a>
+                </div>
+                <div class="text">
+                    <p>
+                        When everyone got the tie, the seniors began to teach us how to wear the tie properly. We all 
+                        listened carefully in the under the stage and followed the instructions given by the seniors to 
+                        wear the tie step by step. There are some people among us still don't understand how to wear 
+                        the tie. So, the seniors patiently taught him personally. For me, although I was also still not 
+                        really understand the step, I had cooperated with my friends to find out and correct each
+                        other's steps to wear the tie. In the end, everyone had learned all the steps to wear the tie 
+                        smoothly.
+                    </p>
+                </div>
+                <div class="text">
+                    <p>
+                        This was a very meaningful day because I finally became a part of PRS on this day. After becoming 
+                        a PRS, I want to use my abilities to help my friends around me, the teacher and also myself.
+                    </p>
+                </div>
+            </div>
+            <div class="button">
+                <div><a href="My blog.html"><i class="fa fa-arrow-left left-icon" aria-hidden="true"></i>Back</a></div>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("menu");
+              var icon = document.getElementById("icon");
+              icon.classList.toggle("fa-window-close");
+              if (x.className === "top-menu") {
+                document.body.style.overflow="hidden"
+                x.className = x.className + " responsive";
+              } else {
+                x.className = "top-menu";
+                document.body.style.overflow="auto"
+              }
+            }
+        </script>
+        <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Share</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/share.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="content">
+                <div id="topnav">
+                    <div id="logo">
+                        <a href="index.html"><img src="image/logo.png" alt="logo" height="50"></a>
+                    </div>
+                    <div id="menu" class="top-menu">
+                        <div class="menu-button"><a href="PRS.html">PRS</a></div>
+                        <div class="menu-button hassub"><a href="My Blog.html">My Blog</a>
+                            <div class="submenu">
+                                <div class="menu-button sub-button"><a href="Officialy Joined.html">Officially Joined</a></div>
+                                <div class="menu-button sub-button"><a href="Cross school camp.html">Cross school camp</a></div>
+                                <div class="menu-button sub-button"><a href="Memorable camp.html">Memorable camp</a></div>
+                            </div>
+                        </div>
+                        <div class="menu-button"><a href="About.html">About Me</a></div>
+                        <div class="menu-button"><a href="Share with Me.html">Share With Me</a></div>
+                    </div>
+                    <div id="hamburger">
+                        <a onclick="myFunction()">
+                          <i id="icon" class="fa fa-bars icon-property"></i>
+                        </a>
+                    </div>
+                </div>
+                <div id="main-form">  
+                    <div id="form">
+                        <form name="myForm" class="flex"  method="POST" action="Share with Me.html">
+                            <div id="info">
+                                <div id="contact">
+                                    <h2>Contact Us</h2>
+                                </div>
+                                <div class="info-flex">
+                                    <i class="fa fa-mobile info-phone" aria-hidden="true"></i>
+                                    <p>+60 11-5550 6995</p>
+                                </div>
+                                <div class="info-flex">
+                                    <i class="fa fa-envelope-o info-email" aria-hidden="true"></i>
+                                    <p>lcl010205@gmail.com</p>
+                                </div>
+                                <div class="info-flex">
+                                    <a href="https://www.facebook.com/liew.chunlok" target="_blank"><img src="image/004-facebook-app-logo.png" alternate="Facebook" width="20"></a>
+                                    <a href="https://www.instagram.com/lclloklok/" target="_blank"><img src="image/002-instagram.png" alternate="Instagram" width="20"></a>
+                                    <a href="https://www.linkedin.com/in/liew-chun-lok-2016781ab/" target="_blank"><img src="image/003-linkedin-logo.png" alternate="Linkedin" width="20"></a>
+                                    <a href="image/wechatProfile.jpg"  target="_blank"><img src="image/wechat.png" alternate="Wechat" width="20"></a>
+                                </div>
+                            </div>
+                            <div>
+                                <div id="title">
+                                    <h2>GET in TOUCH</h2>
+                                    <p>Don't be shy. Leave your comment and subscribe.</p>
+                                    <p>Let's make some magic together.</p>
+                                </div>
+                                <div class="flex"> 
+                                    <div id="input">
+                                        <input type="text" name="firstname" required placeholder="Your first name..."/><br>
+                                        <input type="text" name="lastname" required placeholder="Your last name..."/><br>
+                                        <input type="text" name="email" required placeholder="Your email..."/><br>
+                                        <input type="text" name="phone" required placeholder="Your phone num..."/><br><br>
+                                        <input type="radio" id="male" name="gender" value="male">
+                                        <label for="male">Male</label><br>
+                                        <input type="radio" id="female" name="gender" value="female">
+                                        <label for="female">Female</label><br>
+                                        <input type="radio" id="other" name="gender" value="other">
+                                        <label for="other">Other</label><br>
+                                        <select id="country" name="country">
+                                            <option value="australia">Malaysia</option>
+                                            <option value="canada">Singapore</option>
+                                            <option value="usa">Thailand</option>
+                                        </select><br><br>          
+                                    </div>      
+                                    <div id="input2">
+                                        <textarea id="text" name="share" rows="22" cols="40" placeholder="Message..."></textarea><br>
+                                        <input type="submit" value="SEND">
+                                    </div> 
+                                </div>  
+                            </div>
+                        </form>   
+                    </div>
+                </div>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.3897952795623!2d101.80842691428333!3d2.9891743549500127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdcc6338decfe5%3A0x62bc79923919cf9c!2s24%2C%20Jalan%20Restu%203%2C%20Taman%20Restu%2C%2043000%20Kajang%2C%20Selangor!5e0!3m2!1sen!2smy!4v1596959492279!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <div id="footer">
+                <div id="footer-title">
+                    <h1>Know More. Share Thoughts.</h1>
+                </div>
+                <div id="footer-flex">
+                    <div><p><a href="index.html">Home</a></p></div>
+                    <div><p><a href="PRS.html">PRS</a></p></div>
+                    <div><p><a href="My Blog.html">Blog</a></p></div>
+                    <div><p><a href="About.html">About</a></p></div>
+                    <div><p><a href="Share with Me.html">Share</a></p></div>
+                </div>
+                <div id="copyright">
+                    <p>© 2020 Liew Chun Lok. All rights reserved.</p>
+                </div>
+                <div id="icon-flex"> 
+                    <a href="https://www.facebook.com/liew.chunlok" target="_blank"><img src="image/004-facebook-app-logo.png" alternate="Facebook" width="30"></a>
+                    <a href="https://www.instagram.com/lclloklok/" target="_blank"><img src="image/002-instagram.png" alternate="Instagram" width="30"></a>
+                    <a href="https://www.linkedin.com/in/liew-chun-lok-2016781ab/" target="_blank"><img src="image/003-linkedin-logo.png" alternate="Linkedin" width="30"></a>
+                    <a href="image/wechatProfile.jpg"  target="_blank"><img src="image/wechat.png" alternate="Wechat" width="30"></a>
+                </div>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("menu");
+              var icon = document.getElementById("icon");
+              icon.classList.toggle("fa-window-close");
+              if (x.className === "top-menu") {
+                document.body.style.overflow="hidden"
+                x.className = x.className + " responsive";
+              } else {
+                x.className = "top-menu";
+                document.body.style.overflow="auto"
+              }
+            }
+        </script>
+    </body>
+</html>
